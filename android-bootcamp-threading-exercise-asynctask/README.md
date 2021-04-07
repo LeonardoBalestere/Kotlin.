@@ -4,4 +4,4 @@ This is an app who uses AsyncTask to made other threads, because if it was in th
 
 *Isn't a beautiful app, is just a test for study*
 
-![Screenshot](/home/coud/githubPicturesGifs/AssincTask.jpeg)
+![Screenshot](https://imgur.com/a/GscoUKO)
