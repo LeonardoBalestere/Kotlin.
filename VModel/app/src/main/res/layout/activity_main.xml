@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Counter"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtcounter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/txtView"
+        app:layout_constraintStart_toStartOf="@+id/txtView"
+        app:layout_constraintTop_toBottomOf="@+id/txtView" />
+
+    <Button
+        android:id="@+id/btnData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Data"
+        app:layout_constraintEnd_toEndOf="@+id/txtcounter"
+        app:layout_constraintStart_toStartOf="@+id/txtcounter"
+        app:layout_constraintTop_toBottomOf="@+id/txtcounter" />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Show"
+        app:layout_constraintEnd_toEndOf="@+id/btnData"
+        app:layout_constraintStart_toStartOf="@+id/btnData"
+        app:layout_constraintTop_toBottomOf="@+id/btnData" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

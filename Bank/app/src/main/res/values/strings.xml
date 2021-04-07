@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Bank</string>
+    <string name="hello_user">Hello user</string>
+    <string name="our_services">Our services</string>
+    <string name="available_to_you">Available to you</string>
+</resources>

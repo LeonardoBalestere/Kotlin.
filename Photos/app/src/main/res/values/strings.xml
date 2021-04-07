@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Photos</string>
+    <string name="image_selected_by_the_user">Image selected by the user</string>
+    <string name="select_some_picture">Select some picture</string>
+</resources>
