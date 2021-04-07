@@ -4,4 +4,6 @@ This is an app who uses AsyncTask to made other threads, because if it was in th
 
 *Isn't a beautiful app, is just a test for study*
 
-![Screenshot](https://imgur.com/a/GscoUKO)
+<img width="300px" height="300px" src="https://i.imgur.com/CxEX7iu.jpg/>
+
+
