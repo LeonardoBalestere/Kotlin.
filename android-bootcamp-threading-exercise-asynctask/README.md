@@ -2,8 +2,9 @@
 
 This is an app who uses AsyncTask to made other threads, because if it was in the primary thread the app could crash and is a bad experience to the user, so we put it in other thread to load and don't impact badly the user experience.
 
-*Isn't a beautiful app, is just a test for study*
+*It's not a pretty app, it's just a related study test*
 
-<img width="300px" height="300px" src="https://i.imgur.com/CxEX7iu.jpg/>
-
+After Load                                             | Before Load
+:------------------------------------------------------|---------------------------------------------:
+![bf](/home/coud/githubPicturesGifs/AssyncAfLoad.png)  |![af](/home/coud/githubPicturesGifs/AssyncBfLoad.png)
 
