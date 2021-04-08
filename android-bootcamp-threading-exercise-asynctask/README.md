@@ -6,5 +6,5 @@ This is an app who uses AsyncTask to made other threads, because if it was in th
 
 After Load                                             | Before Load
 :------------------------------------------------------|---------------------------------------------:
-![bf](/home/coud/githubPicturesGifs/AssyncAfLoad.png)  |![af](/home/coud/githubPicturesGifs/AssyncBfLoad.png)
+![](https://i.imgur.com/rtmEtAp.png)  |![](https://i.imgur.com/1PEX3Lc.png)
 
