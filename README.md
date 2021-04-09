@@ -1,3 +1,5 @@
+![](https://github.com/LeonardoBalestere/Kotlin./blob/main/Kotlin.jpeg?raw=true)
+
 # kotlin.
 In this repository I will put in all my litle projects that I made in **Kotlin** while I'm studing and now I'm trying to create a **README** for all of then and made a description for a better undertanding.
 #### Status
