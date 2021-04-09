@@ -6,5 +6,5 @@ This is an app who uses AsyncTask to made other threads, because if it was in th
 
 After Load                                             | Before Load
 :------------------------------------------------------|---------------------------------------------:
-![](https://i.imgur.com/rtmEtAp.png)  |![](https://i.imgur.com/1PEX3Lc.png)
+![](https://github.com/LeonardoBalestere/Kotlin./blob/main/android-bootcamp-threading-exercise-asynctask/Printscreen/AssyncBfLoad.png?raw=true)  |![](https://raw.githubusercontent.com/LeonardoBalestere/Kotlin./main/android-bootcamp-threading-exercise-asynctask/Printscreen/AssyncAfLoad.png)
 
