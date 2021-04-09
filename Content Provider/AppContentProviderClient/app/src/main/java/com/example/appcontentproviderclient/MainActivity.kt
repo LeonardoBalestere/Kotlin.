@@ -18,15 +18,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        noteRefreshButton = findViewById(R.id.client_button_refresh)
-        notesRecycler = findViewById(R.id.client_list)
+        noteRefreshButton = findViewById(R.id.fab_client_button_refresh)
+        notesRecycler = findViewById(R.id.tv_client_list)
         getContentProvider()
 
         noteRefreshButton.setOnClickListener{ getContentProvider() }
     }
     private fun getContentProvider(){
         try{
-            val url = "content://com.example.applicationcontentprovider.provider/notes"
+            val url = "content://com.example.contentprovidermain.provider/notes"
             val data: Uri = Uri.parse(url)
             val cursor: Cursor? = contentResolver.query(data,null,null,null,"title")
             notesRecycler.apply {
