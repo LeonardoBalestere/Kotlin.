@@ -1,3 +1,3 @@
-# ContentProviderClient
+# ContentProviderMain
 
-The client of the CP Main takes the cards that the Main made and show in the screen.
+It is the main app in the content provider, who is used to comunicate with other apps.
